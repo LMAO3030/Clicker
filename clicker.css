@@ -1,0 +1,55 @@
+
+
+
+
+body {
+    text-align: center;
+    background-image:url('images/forest.jpg');
+    background-size:cover;
+
+    
+}
+
+
+#bank {
+    
+    font-family: Arial, Helvetica, sans-serif;
+        font-size: 2em;
+        color: blue;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      
+      @-webkit-keyframes glow {
+
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px rgb(170, 20, 20), 0 0 30px #061da0, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        }
+        
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px #692a4a, 0 0 40px #460525, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        }
+    
+      }
+
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}        
+#game {
+    font-size: 6em;
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    background-image: url("images/tjockfagel.gif");
+    background-position: center;
+    background-size: cover;
+    color: black;
+}
+button:focus {
+    outline: 0px;
+}
